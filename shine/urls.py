@@ -1,5 +1,5 @@
 from django.conf.urls import url
 from shine import views
 urlpatterns = [
-    url(r'^$', views.post_list,name='post_list'),
+    url(r'^$', views.Post_list,name='Post_list'),
 ]
